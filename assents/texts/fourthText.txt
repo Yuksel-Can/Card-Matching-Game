@@ -1,0 +1,10 @@
+<h3>JQUERY</h3>
+<p>
+jQuery, John Resig tarafından 2006 yılında geliştirilmiş ve şu an geniş bir jQuery ekibi tarafından gelişimi sürdürülen bir açık kaynak JavaScript kütüphanesidir.
+
+jQuery en popüler çapraz-platform JavaScript kütüphanesi ya da farklı bir JavaScript web geliştirme çatısıdır denebilir. 
+jQuery yoğun olarak animasyonlarda kullanılır. Flash'ın alternatifi olarak kullanılan bu teknolojiyle Flash galeri, 
+sekme menü, sayfa geçişleri gibi birçok işlem yapılmaktadır.
+<br><br>
+jQuery'nin resmi sitesinden jQuery dosyasını indirip web sitenize yükleyebilirsiniz. jQuery boyutu ufak ve işlevi çok olduğundan ayrıca hazır eklentileri de çok olduğundan ötürü epey yaygındır
+</p>

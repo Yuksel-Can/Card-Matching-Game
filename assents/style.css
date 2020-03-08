@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #878787;
+
+}
+.f-30{
+    font-size: 30px;
+}
+.card-img{
+    max-width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10%; 
+}
+.scene {
+    perspective: 600px;
+}
+.card {
+    height: 280px;
+    border:none;
+    border-radius: 10%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+    -webkit-box-shadow: 10px 0px 23px 0px #0000002f;
+    -moz-box-shadow: 10px 0px 23px 0px #0000002f;
+    box-shadow: 10px 0px 23px 0px #0000002f;
+    transition: 1s;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+.card:hover{
+    transition: 1s;
+    -webkit-box-shadow: 10px 0px 13px 0px #0000004a;
+    -moz-box-shadow: 10px 0px 13px 0px #0000004a;
+    box-shadow: 10px 0px 13px 0px #0000004a;
+}
+.card.is-flipped {
+    transform: rotateY(180deg);
+}
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card__face--back {
+    transform: rotateY(180deg);
+    height: 70%;
+    margin: auto 0;
+}
+.card__face--back img{
+    margin: auto;
+    object-fit:unset;
+    padding: 30px;
+}
+.pointerNone{
+    pointer-events: none;
+    opacity: 20%;
+}
