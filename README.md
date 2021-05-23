@@ -1,4 +1,4 @@
-# Card_Matching_Game
+# Card-Matching-Game
 It is a card matching game which is a simple and fun brain game.
  <br/>
  ``` Basit ve eğlenceli bir beyin geliştirici olan bir kart eşleştirme oyununun "web" versiyonudur. ```
